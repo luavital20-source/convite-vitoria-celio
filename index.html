@@ -557,8 +557,9 @@ const CONFIG = {
   recepcao: "Recepção no Vaso Restaurante · Av. Senador Virgílio Távora, 511 · Meireles",
   cidade: "Fortaleza · Ceará",
   confirmarAte: "26 de agosto de 2026",
-  siteURL: "https://noivos.casar.com/vitecelio",  // ✏️ confirme o link (lido do card)
-  siteLabel: "noivos.casar.com/vitecelio",
+  siteURL: "https://noivos.casar.com/viviecelio",            // site dos noivos / lista de presentes
+  rsvpURL: "https://noivos.casar.com/viviecelio#/rsvp",      // confirmação de presença
+  siteLabel: "noivos.casar.com/viviecelio",
   pixChave: "(85) 9.9910-1414",                     // lido do card impresso
   pixNome: "Francisco Célio Guimarães Façanha Filho",
   fotoVitoria: "",  // ✏️ cole aqui a URL da foto da polaroide (opcional)
@@ -977,7 +978,7 @@ function openOverlay(id){
   let extra = "";
   if(id==="details"){
     extra = `<div class="actions">
-      <a class="btn" href="${C.siteURL}" target="_blank" rel="noopener">Confirmar presença</a>
+      <a class="btn" href="${C.rsvpURL}" target="_blank" rel="noopener">Confirmar presença</a>
       <button class="btn ghost" id="copyPix">Copiar Pix</button>
     </div>`;
   }
